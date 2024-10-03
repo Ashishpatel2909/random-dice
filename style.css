@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+h1 {
+  position: absolute;
+  top: 18px;
+  font-size: 53px;
+    color: cornsilk;
+}
+.dice {
+  margin: 50px;
+  padding: 45px;
+}
+.img {
+  height: 300px;
+  width: 350px;
+}
+p {
+  padding-left: 81px;
+  font-size: 62px;
+  font-family: fantasy;
+  color: brown;
+  text-shadow: 2px 2px #222220;
+}
+p:hover {
+  color: maroon;
+}
